@@ -62,9 +62,6 @@ body {
     width: 95vw;
 }
 
-/* ==================================== */
-/* 2. Heading and Level                 */
-/* ==================================== */
 h1 {
     /* Responsive font size */
     font-size: clamp(2rem, 8vw, 2.5rem); 
@@ -86,9 +83,6 @@ h1 {
     color: var(--color-accent);
 }
 
-/* ==================================== */
-/* 3. Game Grid (Responsive Core)       */
-/* ==================================== */
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -140,9 +134,6 @@ h1 {
 #blue.active { background-color: var(--color-blue-active); color: var(--color-blue-active); }
 #yellow.active { background-color: var(--color-yellow-active); color: var(--color-yellow-active); }
 
-/* ==================================== */
-/* 4. Controls and Message              */
-/* ==================================== */
 .start-btn {
     padding: 12px 30px; 
     /* Responsive font size */
@@ -177,4 +168,5 @@ h1 {
     font-size: clamp(1rem, 4vw, 1.2rem); 
     color: var(--color-accent);
     font-weight: 500;
+
 }
